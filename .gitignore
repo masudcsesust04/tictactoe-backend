@@ -1,0 +1,9 @@
+# Ignore ide config.
+.idea/*
+
+# Ignore node_modules
+node_modules
+
+# Ignore .env environment file
+.env
+
