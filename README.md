@@ -15,6 +15,7 @@ $ git clone git@github.com:masudcsesust04/tictactoe-backend.git
 
 ## DB connection and environment variable set
 - Make a copy of ```.env.sample``` file and save it as ```.env```
+- Create a database to your postgresql database from psql or pgadmin client.
 - Then open ```.env``` file and update DB configuration based on your DB(PostgreSQL) setup.
 
 ## Install dependencies
