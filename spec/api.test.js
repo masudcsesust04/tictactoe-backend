@@ -14,3 +14,11 @@ describe('Root path test', () => {
   });
 });
 
+describe('Rounds', () => {
+  it('should create a new round', async() => {
+    const res = await request(app).post('/api/rounds').send({});
+    expect(res.statusCode).toBe(200);
+    expect(res.body.winner).toEqual(null);
+  });
+});
+
