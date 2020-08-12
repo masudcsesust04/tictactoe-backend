@@ -29,27 +29,12 @@ $ npm start
 ```
 
 ## List of API
-Create and save a new round:
-1. POST http://localhost:5000/api/rounds
-
-Retrieve all rounds:
-2. GET  http://localhost:5000/api/rounds
-
-Find a single round with an id:
-3. GET  http://localhost:5000/rounds/:id
-
-Update a round by the id in the request:
-4. PUT  http://localhost:5000/rounds/:id
-
-Retrieve last round:
-5. GET  http://localhost:5000/rounds-last
-
-Retrieve all moves by round id:
-6. GET  http://localhost:5000/rounds/:id/moves
-
-Create and save a new move by a player:
-7. POST http://localhost:5000/moves
-
-Retrieve all moves: 
-8. GET  http://localhost:5000/moves
+1. Create and save a new round: POST http://localhost:5000/api/rounds
+2. Retrieve all rounds: GET  http://localhost:5000/api/rounds
+3. Find a single round with an id: GET  http://localhost:5000/rounds/:id
+4. Update a round by the id in the request: PUT  http://localhost:5000/rounds/:id
+5. Retrieve last round: GET  http://localhost:5000/rounds-last
+6. Retrieve all moves by round id: GET  http://localhost:5000/rounds/:id/moves
+7. Create and save a new move by a player: POST http://localhost:5000/moves
+8. Retrieve all moves: GET  http://localhost:5000/moves
 
