@@ -3,7 +3,6 @@ const bodyParser = require("body-parser");
 const routes = require("./config/routes");
 const app = express();
 const db = require("./app/models");
-const PORT = process.env.PORT || 5000;
 
 db.sequelize.sync();
 
@@ -15,7 +14,5 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to tictactoe backend API application." });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}.`);
-});
+module.exports = app;
 
