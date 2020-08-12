@@ -28,6 +28,11 @@ $ npm install
 $ npm start
 ```
 
+## Run test code
+```
+$ npm test
+```
+
 ## List of API
 1. Create and save a new round: POST http://localhost:5000/api/rounds
 2. Retrieve all rounds: GET  http://localhost:5000/api/rounds
