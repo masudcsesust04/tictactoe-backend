@@ -43,3 +43,8 @@ $ npm test
 7. Create and save a new move by a player: POST http://localhost:5000/moves
 8. Retrieve all moves: GET  http://localhost:5000/moves
 
+## Dockerization
+Follow https://github.com/masudcsesust04/tictactoe-docker to run frontend, backend app in a docker environment
+
+### Thank you!
+
